@@ -1,0 +1,5 @@
+classes= 1
+train = /work/dataset/img_mit/train.txt
+valid = /work/dataset/img_mit/valid.txt
+names = data/cone.names
+backup = backup
