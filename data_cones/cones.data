@@ -1,0 +1,5 @@
+classes= 3
+train  = data_cones/train.txt
+valid  = data_cones/valid.txt
+names = data_cones/cones.names
+backup = backup
