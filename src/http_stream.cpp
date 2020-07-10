@@ -849,7 +849,7 @@ void set_track_id(detection *new_dets, int new_dets_num, float thresh, float sim
 
     // sort similarity
     std::sort(sim_det.begin(), sim_det.end(), [](similarity_detections_t v1, similarity_detections_t v2) { return v1.sim > v2.sim; });
-    if(sim_det.size() > 0) printf(" sim_det_first = %f, sim_det_end = %f \n", sim_det.begin()->sim, sim_det.rbegin()->sim);
+    //if(sim_det.size() > 0) printf(" sim_det_first = %f, sim_det_end = %f \n", sim_det.begin()->sim, sim_det.rbegin()->sim);
 
 
     std::vector<int> new_idx(new_dets_num, 1);
@@ -862,6 +862,7 @@ void set_track_id(detection *new_dets, int new_dets_num, float thresh, float sim
         const int old_id = sim_det[index].old_id;
         const int track_id = old_dets[old_id].track_id;
         const int det_count = old_dets[old_id].sort_class;
+        //printf(" ciou = %f \n", box_ciou(new_dets[new_id].bbox, old_dets[old_id].bbox));
         if (check_prob(new_dets[new_id], thresh) && track_idx[track_id] && new_idx[new_id] && old_idx[old_id]) {
             float sim = sim_det[index].sim;
             float ciou = box_ciou(new_dets[new_id].bbox, old_dets[old_id].bbox);
@@ -895,10 +896,11 @@ void set_track_id(detection *new_dets, int new_dets_num, float thresh, float sim
 
     // remove detection which were detected only on few frames
     for (int i = 0; i < new_dets_num; ++i) {
-        if (new_dets[i].sort_class < dets_for_show)
+        if (new_dets[i].sort_class < dets_for_show) {
             for (int j = 0; j < new_dets[i].classes; ++j) {
                 new_dets[i].prob[j] = 0;
             }
+        }
     }
 }
 
