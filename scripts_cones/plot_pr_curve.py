@@ -13,6 +13,7 @@ directory.
 import re
 import argparse
 import numpy as np
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 import seaborn as sns
@@ -85,7 +86,15 @@ if __name__ == "__main__":
     
     # use percentage representation for x y axes
     ax = plt.gca()
+    # ax.set_xlim([0, 1.0])
+    # ax.set_ylim([0, 1.0])
     ax.xaxis.set_major_formatter(mtick.PercentFormatter(1.0))
     ax.yaxis.set_major_formatter(mtick.PercentFormatter(1.0))
     
-    plt.show()
+    ax.get_xaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
+    ax.get_yaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
+    ax.grid(b=True, which='major', color='w', linewidth=1.0)
+    ax.grid(b=True, which='minor', color='w', linewidth=0.5)
+    
+    plt.savefig('pr_curve.png', dpi=300)
+    # plt.show()
