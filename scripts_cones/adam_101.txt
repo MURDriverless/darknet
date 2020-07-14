@@ -1,0 +1,337 @@
+net.optimized_memory = 0 
+mini_batch = 1, batch = 16, time_steps = 1, train = 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 512 K-images (8 Kilo-batches_64) 
+
+ calculation mAP (mean average precision)...
+ Detection layer: 139 - type = 27 
+ Detection layer: 150 - type = 27 
+ Detection layer: 161 - type = 27 
+
+ detections_count = 32452, unique_truth_count = 12878  
+ rank = 0 of ranks = 32452  rank = 100 of ranks = 32452  rank = 200 of ranks = 32452  rank = 300 of ranks = 32452  rank = 400 of ranks = 32452  rank = 500 of ranks = 32452  rank = 600 of ranks = 32452  rank = 700 of ranks = 32452  rank = 800 of ranks = 32452  rank = 900 of ranks = 32452  rank = 1000 of ranks = 32452  rank = 1100 of ranks = 32452  rank = 1200 of ranks = 32452  rank = 1300 of ranks = 32452  rank = 1400 of ranks = 32452  rank = 1500 of ranks = 32452  rank = 1600 of ranks = 32452  rank = 1700 of ranks = 32452  rank = 1800 of ranks = 32452  rank = 1900 of ranks = 32452  rank = 2000 of ranks = 32452  rank = 2100 of ranks = 32452  rank = 2200 of ranks = 32452  rank = 2300 of ranks = 32452  rank = 2400 of ranks = 32452  rank = 2500 of ranks = 32452  rank = 2600 of ranks = 32452  rank = 2700 of ranks = 32452  rank = 2800 of ranks = 32452  rank = 2900 of ranks = 32452  rank = 3000 of ranks = 32452  rank = 3100 of ranks = 32452  rank = 3200 of ranks = 32452  rank = 3300 of ranks = 32452  rank = 3400 of ranks = 32452  rank = 3500 of ranks = 32452  rank = 3600 of ranks = 32452  rank = 3700 of ranks = 32452  rank = 3800 of ranks = 32452  rank = 3900 of ranks = 32452  rank = 4000 of ranks = 32452  rank = 4100 of ranks = 32452  rank = 4200 of ranks = 32452  rank = 4300 of ranks = 32452  rank = 4400 of ranks = 32452  rank = 4500 of ranks = 32452  rank = 4600 of ranks = 32452  rank = 4700 of ranks = 32452  rank = 4800 of ranks = 32452  rank = 4900 of ranks = 32452  rank = 5000 of ranks = 32452  rank = 5100 of ranks = 32452  rank = 5200 of ranks = 32452  rank = 5300 of ranks = 32452  rank = 5400 of ranks = 32452  rank = 5500 of ranks = 32452  rank = 5600 of ranks = 32452  rank = 5700 of ranks = 32452  rank = 5800 of ranks = 32452  rank = 5900 of ranks = 32452  rank = 6000 of ranks = 32452  rank = 6100 of ranks = 32452  rank = 6200 of ranks = 32452  rank = 6300 of ranks = 32452  rank = 6400 of ranks = 32452  rank = 6500 of ranks = 32452  rank = 6600 of ranks = 32452  rank = 6700 of ranks = 32452  rank = 6800 of ranks = 32452  rank = 6900 of ranks = 32452  rank = 7000 of ranks = 32452  rank = 7100 of ranks = 32452  rank = 7200 of ranks = 32452  rank = 7300 of ranks = 32452  rank = 7400 of ranks = 32452  rank = 7500 of ranks = 32452  rank = 7600 of ranks = 32452  rank = 7700 of ranks = 32452  rank = 7800 of ranks = 32452  rank = 7900 of ranks = 32452  rank = 8000 of ranks = 32452  rank = 8100 of ranks = 32452  rank = 8200 of ranks = 32452  rank = 8300 of ranks = 32452  rank = 8400 of ranks = 32452  rank = 8500 of ranks = 32452  rank = 8600 of ranks = 32452  rank = 8700 of ranks = 32452  rank = 8800 of ranks = 32452  rank = 8900 of ranks = 32452  rank = 9000 of ranks = 32452  rank = 9100 of ranks = 32452  rank = 9200 of ranks = 32452  rank = 9300 of ranks = 32452  rank = 9400 of ranks = 32452  rank = 9500 of ranks = 32452  rank = 9600 of ranks = 32452  rank = 9700 of ranks = 32452  rank = 9800 of ranks = 32452  rank = 9900 of ranks = 32452  rank = 10000 of ranks = 32452  rank = 10100 of ranks = 32452  rank = 10200 of ranks = 32452  rank = 10300 of ranks = 32452  rank = 10400 of ranks = 32452  rank = 10500 of ranks = 32452  rank = 10600 of ranks = 32452  rank = 10700 of ranks = 32452  rank = 10800 of ranks = 32452  rank = 10900 of ranks = 32452  rank = 11000 of ranks = 32452  rank = 11100 of ranks = 32452  rank = 11200 of ranks = 32452  rank = 11300 of ranks = 32452  rank = 11400 of ranks = 32452  rank = 11500 of ranks = 32452  rank = 11600 of ranks = 32452  rank = 11700 of ranks = 32452  rank = 11800 of ranks = 32452  rank = 11900 of ranks = 32452  rank = 12000 of ranks = 32452  rank = 12100 of ranks = 32452  rank = 12200 of ranks = 32452  rank = 12300 of ranks = 32452  rank = 12400 of ranks = 32452  rank = 12500 of ranks = 32452  rank = 12600 of ranks = 32452  rank = 12700 of ranks = 32452  rank = 12800 of ranks = 32452  rank = 12900 of ranks = 32452  rank = 13000 of ranks = 32452  rank = 13100 of ranks = 32452  rank = 13200 of ranks = 32452  rank = 13300 of ranks = 32452  rank = 13400 of ranks = 32452  rank = 13500 of ranks = 32452  rank = 13600 of ranks = 32452  rank = 13700 of ranks = 32452  rank = 13800 of ranks = 32452  rank = 13900 of ranks = 32452  rank = 14000 of ranks = 32452  rank = 14100 of ranks = 32452  rank = 14200 of ranks = 32452  rank = 14300 of ranks = 32452  rank = 14400 of ranks = 32452  rank = 14500 of ranks = 32452  rank = 14600 of ranks = 32452  rank = 14700 of ranks = 32452  rank = 14800 of ranks = 32452  rank = 14900 of ranks = 32452  rank = 15000 of ranks = 32452  rank = 15100 of ranks = 32452  rank = 15200 of ranks = 32452  rank = 15300 of ranks = 32452  rank = 15400 of ranks = 32452  rank = 15500 of ranks = 32452  rank = 15600 of ranks = 32452  rank = 15700 of ranks = 32452  rank = 15800 of ranks = 32452  rank = 15900 of ranks = 32452  rank = 16000 of ranks = 32452  rank = 16100 of ranks = 32452  rank = 16200 of ranks = 32452  rank = 16300 of ranks = 32452  rank = 16400 of ranks = 32452  rank = 16500 of ranks = 32452  rank = 16600 of ranks = 32452  rank = 16700 of ranks = 32452  rank = 16800 of ranks = 32452  rank = 16900 of ranks = 32452  rank = 17000 of ranks = 32452  rank = 17100 of ranks = 32452  rank = 17200 of ranks = 32452  rank = 17300 of ranks = 32452  rank = 17400 of ranks = 32452  rank = 17500 of ranks = 32452  rank = 17600 of ranks = 32452  rank = 17700 of ranks = 32452  rank = 17800 of ranks = 32452  rank = 17900 of ranks = 32452  rank = 18000 of ranks = 32452  rank = 18100 of ranks = 32452  rank = 18200 of ranks = 32452  rank = 18300 of ranks = 32452  rank = 18400 of ranks = 32452  rank = 18500 of ranks = 32452  rank = 18600 of ranks = 32452  rank = 18700 of ranks = 32452  rank = 18800 of ranks = 32452  rank = 18900 of ranks = 32452  rank = 19000 of ranks = 32452  rank = 19100 of ranks = 32452  rank = 19200 of ranks = 32452  rank = 19300 of ranks = 32452  rank = 19400 of ranks = 32452  rank = 19500 of ranks = 32452  rank = 19600 of ranks = 32452  rank = 19700 of ranks = 32452  rank = 19800 of ranks = 32452  rank = 19900 of ranks = 32452  rank = 20000 of ranks = 32452  rank = 20100 of ranks = 32452  rank = 20200 of ranks = 32452  rank = 20300 of ranks = 32452  rank = 20400 of ranks = 32452  rank = 20500 of ranks = 32452  rank = 20600 of ranks = 32452  rank = 20700 of ranks = 32452  rank = 20800 of ranks = 32452  rank = 20900 of ranks = 32452  rank = 21000 of ranks = 32452  rank = 21100 of ranks = 32452  rank = 21200 of ranks = 32452  rank = 21300 of ranks = 32452  rank = 21400 of ranks = 32452  rank = 21500 of ranks = 32452  rank = 21600 of ranks = 32452  rank = 21700 of ranks = 32452  rank = 21800 of ranks = 32452  rank = 21900 of ranks = 32452  rank = 22000 of ranks = 32452  rank = 22100 of ranks = 32452  rank = 22200 of ranks = 32452  rank = 22300 of ranks = 32452  rank = 22400 of ranks = 32452  rank = 22500 of ranks = 32452  rank = 22600 of ranks = 32452  rank = 22700 of ranks = 32452  rank = 22800 of ranks = 32452  rank = 22900 of ranks = 32452  rank = 23000 of ranks = 32452  rank = 23100 of ranks = 32452  rank = 23200 of ranks = 32452  rank = 23300 of ranks = 32452  rank = 23400 of ranks = 32452  rank = 23500 of ranks = 32452  rank = 23600 of ranks = 32452  rank = 23700 of ranks = 32452  rank = 23800 of ranks = 32452  rank = 23900 of ranks = 32452  rank = 24000 of ranks = 32452  rank = 24100 of ranks = 32452  rank = 24200 of ranks = 32452  rank = 24300 of ranks = 32452  rank = 24400 of ranks = 32452  rank = 24500 of ranks = 32452  rank = 24600 of ranks = 32452  rank = 24700 of ranks = 32452  rank = 24800 of ranks = 32452  rank = 24900 of ranks = 32452  rank = 25000 of ranks = 32452  rank = 25100 of ranks = 32452  rank = 25200 of ranks = 32452  rank = 25300 of ranks = 32452  rank = 25400 of ranks = 32452  rank = 25500 of ranks = 32452  rank = 25600 of ranks = 32452  rank = 25700 of ranks = 32452  rank = 25800 of ranks = 32452  rank = 25900 of ranks = 32452  rank = 26000 of ranks = 32452  rank = 26100 of ranks = 32452  rank = 26200 of ranks = 32452  rank = 26300 of ranks = 32452  rank = 26400 of ranks = 32452  rank = 26500 of ranks = 32452  rank = 26600 of ranks = 32452  rank = 26700 of ranks = 32452  rank = 26800 of ranks = 32452  rank = 26900 of ranks = 32452  rank = 27000 of ranks = 32452  rank = 27100 of ranks = 32452  rank = 27200 of ranks = 32452  rank = 27300 of ranks = 32452  rank = 27400 of ranks = 32452  rank = 27500 of ranks = 32452  rank = 27600 of ranks = 32452  rank = 27700 of ranks = 32452  rank = 27800 of ranks = 32452  rank = 27900 of ranks = 32452  rank = 28000 of ranks = 32452  rank = 28100 of ranks = 32452  rank = 28200 of ranks = 32452  rank = 28300 of ranks = 32452  rank = 28400 of ranks = 32452  rank = 28500 of ranks = 32452  rank = 28600 of ranks = 32452  rank = 28700 of ranks = 32452  rank = 28800 of ranks = 32452  rank = 28900 of ranks = 32452  rank = 29000 of ranks = 32452  rank = 29100 of ranks = 32452  rank = 29200 of ranks = 32452  rank = 29300 of ranks = 32452  rank = 29400 of ranks = 32452  rank = 29500 of ranks = 32452  rank = 29600 of ranks = 32452  rank = 29700 of ranks = 32452  rank = 29800 of ranks = 32452  rank = 29900 of ranks = 32452  rank = 30000 of ranks = 32452  rank = 30100 of ranks = 32452  rank = 30200 of ranks = 32452  rank = 30300 of ranks = 32452  rank = 30400 of ranks = 32452  rank = 30500 of ranks = 32452  rank = 30600 of ranks = 32452  rank = 30700 of ranks = 32452  rank = 30800 of ranks = 32452  rank = 30900 of ranks = 32452  rank = 31000 of ranks = 32452  rank = 31100 of ranks = 32452  rank = 31200 of ranks = 32452  rank = 31300 of ranks = 32452  rank = 31400 of ranks = 32452  rank = 31500 of ranks = 32452  rank = 31600 of ranks = 32452  rank = 31700 of ranks = 32452  rank = 31800 of ranks = 32452  rank = 31900 of ranks = 32452  rank = 32000 of ranks = 32452  rank = 32100 of ranks = 32452  rank = 32200 of ranks = 32452  rank = 32300 of ranks = 32452  rank = 32400 of ranks = 32452 class_id = 0, point = 0, cur_recall = 0.0000, cur_precision = 1.0000 
+class_id = 0, point = 1, cur_recall = 0.0100, cur_precision = 1.0000 
+class_id = 0, point = 2, cur_recall = 0.0200, cur_precision = 1.0000 
+class_id = 0, point = 3, cur_recall = 0.0300, cur_precision = 1.0000 
+class_id = 0, point = 4, cur_recall = 0.0400, cur_precision = 1.0000 
+class_id = 0, point = 5, cur_recall = 0.0500, cur_precision = 1.0000 
+class_id = 0, point = 6, cur_recall = 0.0600, cur_precision = 1.0000 
+class_id = 0, point = 7, cur_recall = 0.0700, cur_precision = 1.0000 
+class_id = 0, point = 8, cur_recall = 0.0800, cur_precision = 1.0000 
+class_id = 0, point = 9, cur_recall = 0.0900, cur_precision = 1.0000 
+class_id = 0, point = 10, cur_recall = 0.1000, cur_precision = 1.0000 
+class_id = 0, point = 11, cur_recall = 0.1100, cur_precision = 1.0000 
+class_id = 0, point = 12, cur_recall = 0.1200, cur_precision = 1.0000 
+class_id = 0, point = 13, cur_recall = 0.1300, cur_precision = 1.0000 
+class_id = 0, point = 14, cur_recall = 0.1400, cur_precision = 1.0000 
+class_id = 0, point = 15, cur_recall = 0.1500, cur_precision = 1.0000 
+class_id = 0, point = 16, cur_recall = 0.1600, cur_precision = 1.0000 
+class_id = 0, point = 17, cur_recall = 0.1700, cur_precision = 1.0000 
+class_id = 0, point = 18, cur_recall = 0.1800, cur_precision = 1.0000 
+class_id = 0, point = 19, cur_recall = 0.1900, cur_precision = 1.0000 
+class_id = 0, point = 20, cur_recall = 0.2000, cur_precision = 1.0000 
+class_id = 0, point = 21, cur_recall = 0.2100, cur_precision = 1.0000 
+class_id = 0, point = 22, cur_recall = 0.2200, cur_precision = 0.9988 
+class_id = 0, point = 23, cur_recall = 0.2300, cur_precision = 0.9979 
+class_id = 0, point = 24, cur_recall = 0.2400, cur_precision = 0.9979 
+class_id = 0, point = 25, cur_recall = 0.2500, cur_precision = 0.9979 
+class_id = 0, point = 26, cur_recall = 0.2600, cur_precision = 0.9979 
+class_id = 0, point = 27, cur_recall = 0.2700, cur_precision = 0.9972 
+class_id = 0, point = 28, cur_recall = 0.2800, cur_precision = 0.9972 
+class_id = 0, point = 29, cur_recall = 0.2900, cur_precision = 0.9972 
+class_id = 0, point = 30, cur_recall = 0.3000, cur_precision = 0.9964 
+class_id = 0, point = 31, cur_recall = 0.3100, cur_precision = 0.9964 
+class_id = 0, point = 32, cur_recall = 0.3200, cur_precision = 0.9964 
+class_id = 0, point = 33, cur_recall = 0.3300, cur_precision = 0.9964 
+class_id = 0, point = 34, cur_recall = 0.3400, cur_precision = 0.9964 
+class_id = 0, point = 35, cur_recall = 0.3500, cur_precision = 0.9964 
+class_id = 0, point = 36, cur_recall = 0.3600, cur_precision = 0.9964 
+class_id = 0, point = 37, cur_recall = 0.3700, cur_precision = 0.9964 
+class_id = 0, point = 38, cur_recall = 0.3800, cur_precision = 0.9958 
+class_id = 0, point = 39, cur_recall = 0.3900, cur_precision = 0.9951 
+class_id = 0, point = 40, cur_recall = 0.4000, cur_precision = 0.9939 
+class_id = 0, point = 41, cur_recall = 0.4100, cur_precision = 0.9915 
+class_id = 0, point = 42, cur_recall = 0.4200, cur_precision = 0.9909 
+class_id = 0, point = 43, cur_recall = 0.4300, cur_precision = 0.9886 
+class_id = 0, point = 44, cur_recall = 0.4400, cur_precision = 0.9873 
+class_id = 0, point = 45, cur_recall = 0.4500, cur_precision = 0.9868 
+class_id = 0, point = 46, cur_recall = 0.4600, cur_precision = 0.9852 
+class_id = 0, point = 47, cur_recall = 0.4700, cur_precision = 0.9842 
+class_id = 0, point = 48, cur_recall = 0.4800, cur_precision = 0.9842 
+class_id = 0, point = 49, cur_recall = 0.4900, cur_precision = 0.9826 
+class_id = 0, point = 50, cur_recall = 0.5000, cur_precision = 0.9822 
+class_id = 0, point = 51, cur_recall = 0.5100, cur_precision = 0.9805 
+class_id = 0, point = 52, cur_recall = 0.5200, cur_precision = 0.9792 
+class_id = 0, point = 53, cur_recall = 0.5300, cur_precision = 0.9783 
+class_id = 0, point = 54, cur_recall = 0.5400, cur_precision = 0.9747 
+class_id = 0, point = 55, cur_recall = 0.5500, cur_precision = 0.9728 
+class_id = 0, point = 56, cur_recall = 0.5600, cur_precision = 0.9719 
+class_id = 0, point = 57, cur_recall = 0.5700, cur_precision = 0.9696 
+class_id = 0, point = 58, cur_recall = 0.5800, cur_precision = 0.9694 
+class_id = 0, point = 59, cur_recall = 0.5900, cur_precision = 0.9677 
+class_id = 0, point = 60, cur_recall = 0.6000, cur_precision = 0.9667 
+class_id = 0, point = 61, cur_recall = 0.6100, cur_precision = 0.9657 
+class_id = 0, point = 62, cur_recall = 0.6200, cur_precision = 0.9650 
+class_id = 0, point = 63, cur_recall = 0.6300, cur_precision = 0.9639 
+class_id = 0, point = 64, cur_recall = 0.6400, cur_precision = 0.9619 
+class_id = 0, point = 65, cur_recall = 0.6500, cur_precision = 0.9567 
+class_id = 0, point = 66, cur_recall = 0.6600, cur_precision = 0.9546 
+class_id = 0, point = 67, cur_recall = 0.6700, cur_precision = 0.9493 
+class_id = 0, point = 68, cur_recall = 0.6800, cur_precision = 0.9441 
+class_id = 0, point = 69, cur_recall = 0.6900, cur_precision = 0.9428 
+class_id = 0, point = 70, cur_recall = 0.7000, cur_precision = 0.9413 
+class_id = 0, point = 71, cur_recall = 0.7100, cur_precision = 0.9382 
+class_id = 0, point = 72, cur_recall = 0.7200, cur_precision = 0.9322 
+class_id = 0, point = 73, cur_recall = 0.7300, cur_precision = 0.9266 
+class_id = 0, point = 74, cur_recall = 0.7400, cur_precision = 0.9219 
+class_id = 0, point = 75, cur_recall = 0.7500, cur_precision = 0.9159 
+class_id = 0, point = 76, cur_recall = 0.7600, cur_precision = 0.9118 
+class_id = 0, point = 77, cur_recall = 0.7700, cur_precision = 0.9054 
+class_id = 0, point = 78, cur_recall = 0.7800, cur_precision = 0.8969 
+class_id = 0, point = 79, cur_recall = 0.7900, cur_precision = 0.8887 
+class_id = 0, point = 80, cur_recall = 0.8000, cur_precision = 0.8773 
+class_id = 0, point = 81, cur_recall = 0.8100, cur_precision = 0.8662 
+class_id = 0, point = 82, cur_recall = 0.8200, cur_precision = 0.8559 
+class_id = 0, point = 83, cur_recall = 0.8300, cur_precision = 0.8348 
+class_id = 0, point = 84, cur_recall = 0.8400, cur_precision = 0.8187 
+class_id = 0, point = 85, cur_recall = 0.8500, cur_precision = 0.7983 
+class_id = 0, point = 86, cur_recall = 0.8600, cur_precision = 0.7768 
+class_id = 0, point = 87, cur_recall = 0.8700, cur_precision = 0.7436 
+class_id = 0, point = 88, cur_recall = 0.8800, cur_precision = 0.6924 
+class_id = 0, point = 89, cur_recall = 0.8900, cur_precision = 0.5784 
+class_id = 0, point = 90, cur_recall = 0.9000, cur_precision = 0.0000 
+class_id = 0, point = 91, cur_recall = 0.9100, cur_precision = 0.0000 
+class_id = 0, point = 92, cur_recall = 0.9200, cur_precision = 0.0000 
+class_id = 0, point = 93, cur_recall = 0.9300, cur_precision = 0.0000 
+class_id = 0, point = 94, cur_recall = 0.9400, cur_precision = 0.0000 
+class_id = 0, point = 95, cur_recall = 0.9500, cur_precision = 0.0000 
+class_id = 0, point = 96, cur_recall = 0.9600, cur_precision = 0.0000 
+class_id = 0, point = 97, cur_recall = 0.9700, cur_precision = 0.0000 
+class_id = 0, point = 98, cur_recall = 0.9800, cur_precision = 0.0000 
+class_id = 0, point = 99, cur_recall = 0.9900, cur_precision = 0.0000 
+class_id = 0, point = 100, cur_recall = 1.0000, cur_precision = 0.0000 
+class_id = 0, name = blue cone, ap = 85.30%   	 (TP = 3119, FP = 889) 
+Precision = 0.78, Recall = 0.86, avg IOU = 0.62% 
+
+class_id = 1, point = 0, cur_recall = 0.0000, cur_precision = 1.0000 
+class_id = 1, point = 1, cur_recall = 0.0100, cur_precision = 1.0000 
+class_id = 1, point = 2, cur_recall = 0.0200, cur_precision = 1.0000 
+class_id = 1, point = 3, cur_recall = 0.0300, cur_precision = 1.0000 
+class_id = 1, point = 4, cur_recall = 0.0400, cur_precision = 1.0000 
+class_id = 1, point = 5, cur_recall = 0.0500, cur_precision = 1.0000 
+class_id = 1, point = 6, cur_recall = 0.0600, cur_precision = 1.0000 
+class_id = 1, point = 7, cur_recall = 0.0700, cur_precision = 1.0000 
+class_id = 1, point = 8, cur_recall = 0.0800, cur_precision = 1.0000 
+class_id = 1, point = 9, cur_recall = 0.0900, cur_precision = 0.9963 
+class_id = 1, point = 10, cur_recall = 0.1000, cur_precision = 0.9963 
+class_id = 1, point = 11, cur_recall = 0.1100, cur_precision = 0.9950 
+class_id = 1, point = 12, cur_recall = 0.1200, cur_precision = 0.9950 
+class_id = 1, point = 13, cur_recall = 0.1300, cur_precision = 0.9950 
+class_id = 1, point = 14, cur_recall = 0.1400, cur_precision = 0.9950 
+class_id = 1, point = 15, cur_recall = 0.1500, cur_precision = 0.9950 
+class_id = 1, point = 16, cur_recall = 0.1600, cur_precision = 0.9950 
+class_id = 1, point = 17, cur_recall = 0.1700, cur_precision = 0.9935 
+class_id = 1, point = 18, cur_recall = 0.1800, cur_precision = 0.9935 
+class_id = 1, point = 19, cur_recall = 0.1900, cur_precision = 0.9928 
+class_id = 1, point = 20, cur_recall = 0.2000, cur_precision = 0.9928 
+class_id = 1, point = 21, cur_recall = 0.2100, cur_precision = 0.9928 
+class_id = 1, point = 22, cur_recall = 0.2200, cur_precision = 0.9928 
+class_id = 1, point = 23, cur_recall = 0.2300, cur_precision = 0.9928 
+class_id = 1, point = 24, cur_recall = 0.2400, cur_precision = 0.9928 
+class_id = 1, point = 25, cur_recall = 0.2500, cur_precision = 0.9928 
+class_id = 1, point = 26, cur_recall = 0.2600, cur_precision = 0.9928 
+class_id = 1, point = 27, cur_recall = 0.2700, cur_precision = 0.9928 
+class_id = 1, point = 28, cur_recall = 0.2800, cur_precision = 0.9928 
+class_id = 1, point = 29, cur_recall = 0.2900, cur_precision = 0.9912 
+class_id = 1, point = 30, cur_recall = 0.3000, cur_precision = 0.9912 
+class_id = 1, point = 31, cur_recall = 0.3100, cur_precision = 0.9912 
+class_id = 1, point = 32, cur_recall = 0.3200, cur_precision = 0.9912 
+class_id = 1, point = 33, cur_recall = 0.3300, cur_precision = 0.9896 
+class_id = 1, point = 34, cur_recall = 0.3400, cur_precision = 0.9896 
+class_id = 1, point = 35, cur_recall = 0.3500, cur_precision = 0.9896 
+class_id = 1, point = 36, cur_recall = 0.3600, cur_precision = 0.9857 
+class_id = 1, point = 37, cur_recall = 0.3700, cur_precision = 0.9848 
+class_id = 1, point = 38, cur_recall = 0.3800, cur_precision = 0.9799 
+class_id = 1, point = 39, cur_recall = 0.3900, cur_precision = 0.9777 
+class_id = 1, point = 40, cur_recall = 0.4000, cur_precision = 0.9761 
+class_id = 1, point = 41, cur_recall = 0.4100, cur_precision = 0.9732 
+class_id = 1, point = 42, cur_recall = 0.4200, cur_precision = 0.9725 
+class_id = 1, point = 43, cur_recall = 0.4300, cur_precision = 0.9712 
+class_id = 1, point = 44, cur_recall = 0.4400, cur_precision = 0.9712 
+class_id = 1, point = 45, cur_recall = 0.4500, cur_precision = 0.9682 
+class_id = 1, point = 46, cur_recall = 0.4600, cur_precision = 0.9682 
+class_id = 1, point = 47, cur_recall = 0.4700, cur_precision = 0.9646 
+class_id = 1, point = 48, cur_recall = 0.4800, cur_precision = 0.9646 
+class_id = 1, point = 49, cur_recall = 0.4900, cur_precision = 0.9629 
+class_id = 1, point = 50, cur_recall = 0.5000, cur_precision = 0.9622 
+class_id = 1, point = 51, cur_recall = 0.5100, cur_precision = 0.9607 
+class_id = 1, point = 52, cur_recall = 0.5200, cur_precision = 0.9571 
+class_id = 1, point = 53, cur_recall = 0.5300, cur_precision = 0.9563 
+class_id = 1, point = 54, cur_recall = 0.5400, cur_precision = 0.9558 
+class_id = 1, point = 55, cur_recall = 0.5500, cur_precision = 0.9558 
+class_id = 1, point = 56, cur_recall = 0.5600, cur_precision = 0.9485 
+class_id = 1, point = 57, cur_recall = 0.5700, cur_precision = 0.9440 
+class_id = 1, point = 58, cur_recall = 0.5800, cur_precision = 0.9434 
+class_id = 1, point = 59, cur_recall = 0.5900, cur_precision = 0.9424 
+class_id = 1, point = 60, cur_recall = 0.6000, cur_precision = 0.9397 
+class_id = 1, point = 61, cur_recall = 0.6100, cur_precision = 0.9352 
+class_id = 1, point = 62, cur_recall = 0.6200, cur_precision = 0.9293 
+class_id = 1, point = 63, cur_recall = 0.6300, cur_precision = 0.9253 
+class_id = 1, point = 64, cur_recall = 0.6400, cur_precision = 0.9230 
+class_id = 1, point = 65, cur_recall = 0.6500, cur_precision = 0.9189 
+class_id = 1, point = 66, cur_recall = 0.6600, cur_precision = 0.9143 
+class_id = 1, point = 67, cur_recall = 0.6700, cur_precision = 0.9087 
+class_id = 1, point = 68, cur_recall = 0.6800, cur_precision = 0.9020 
+class_id = 1, point = 69, cur_recall = 0.6900, cur_precision = 0.8934 
+class_id = 1, point = 70, cur_recall = 0.7000, cur_precision = 0.8894 
+class_id = 1, point = 71, cur_recall = 0.7100, cur_precision = 0.8777 
+class_id = 1, point = 72, cur_recall = 0.7200, cur_precision = 0.8722 
+class_id = 1, point = 73, cur_recall = 0.7300, cur_precision = 0.8606 
+class_id = 1, point = 74, cur_recall = 0.7400, cur_precision = 0.8516 
+class_id = 1, point = 75, cur_recall = 0.7500, cur_precision = 0.8401 
+class_id = 1, point = 76, cur_recall = 0.7600, cur_precision = 0.8308 
+class_id = 1, point = 77, cur_recall = 0.7700, cur_precision = 0.8185 
+class_id = 1, point = 78, cur_recall = 0.7800, cur_precision = 0.8030 
+class_id = 1, point = 79, cur_recall = 0.7900, cur_precision = 0.7876 
+class_id = 1, point = 80, cur_recall = 0.8000, cur_precision = 0.7773 
+class_id = 1, point = 81, cur_recall = 0.8100, cur_precision = 0.7588 
+class_id = 1, point = 82, cur_recall = 0.8200, cur_precision = 0.7446 
+class_id = 1, point = 83, cur_recall = 0.8300, cur_precision = 0.7228 
+class_id = 1, point = 84, cur_recall = 0.8400, cur_precision = 0.7025 
+class_id = 1, point = 85, cur_recall = 0.8500, cur_precision = 0.6825 
+class_id = 1, point = 86, cur_recall = 0.8600, cur_precision = 0.6500 
+class_id = 1, point = 87, cur_recall = 0.8700, cur_precision = 0.5763 
+class_id = 1, point = 88, cur_recall = 0.8800, cur_precision = 0.5000 
+class_id = 1, point = 89, cur_recall = 0.8900, cur_precision = 0.0000 
+class_id = 1, point = 90, cur_recall = 0.9000, cur_precision = 0.0000 
+class_id = 1, point = 91, cur_recall = 0.9100, cur_precision = 0.0000 
+class_id = 1, point = 92, cur_recall = 0.9200, cur_precision = 0.0000 
+class_id = 1, point = 93, cur_recall = 0.9300, cur_precision = 0.0000 
+class_id = 1, point = 94, cur_recall = 0.9400, cur_precision = 0.0000 
+class_id = 1, point = 95, cur_recall = 0.9500, cur_precision = 0.0000 
+class_id = 1, point = 96, cur_recall = 0.9600, cur_precision = 0.0000 
+class_id = 1, point = 97, cur_recall = 0.9700, cur_precision = 0.0000 
+class_id = 1, point = 98, cur_recall = 0.9800, cur_precision = 0.0000 
+class_id = 1, point = 99, cur_recall = 0.9900, cur_precision = 0.0000 
+class_id = 1, point = 100, cur_recall = 1.0000, cur_precision = 0.0000 
+class_id = 1, name = orange cone, ap = 81.88%   	 (TP = 1969, FP = 619) 
+Precision = 0.76, Recall = 0.81, avg IOU = 0.59% 
+
+class_id = 2, point = 0, cur_recall = 0.0000, cur_precision = 1.0000 
+class_id = 2, point = 1, cur_recall = 0.0100, cur_precision = 1.0000 
+class_id = 2, point = 2, cur_recall = 0.0200, cur_precision = 1.0000 
+class_id = 2, point = 3, cur_recall = 0.0300, cur_precision = 1.0000 
+class_id = 2, point = 4, cur_recall = 0.0400, cur_precision = 1.0000 
+class_id = 2, point = 5, cur_recall = 0.0500, cur_precision = 1.0000 
+class_id = 2, point = 6, cur_recall = 0.0600, cur_precision = 1.0000 
+class_id = 2, point = 7, cur_recall = 0.0700, cur_precision = 1.0000 
+class_id = 2, point = 8, cur_recall = 0.0800, cur_precision = 1.0000 
+class_id = 2, point = 9, cur_recall = 0.0900, cur_precision = 1.0000 
+class_id = 2, point = 10, cur_recall = 0.1000, cur_precision = 1.0000 
+class_id = 2, point = 11, cur_recall = 0.1100, cur_precision = 1.0000 
+class_id = 2, point = 12, cur_recall = 0.1200, cur_precision = 1.0000 
+class_id = 2, point = 13, cur_recall = 0.1300, cur_precision = 1.0000 
+class_id = 2, point = 14, cur_recall = 0.1400, cur_precision = 1.0000 
+class_id = 2, point = 15, cur_recall = 0.1500, cur_precision = 0.9990 
+class_id = 2, point = 16, cur_recall = 0.1600, cur_precision = 0.9974 
+class_id = 2, point = 17, cur_recall = 0.1700, cur_precision = 0.9974 
+class_id = 2, point = 18, cur_recall = 0.1800, cur_precision = 0.9961 
+class_id = 2, point = 19, cur_recall = 0.1900, cur_precision = 0.9956 
+class_id = 2, point = 20, cur_recall = 0.2000, cur_precision = 0.9956 
+class_id = 2, point = 21, cur_recall = 0.2100, cur_precision = 0.9956 
+class_id = 2, point = 22, cur_recall = 0.2200, cur_precision = 0.9956 
+class_id = 2, point = 23, cur_recall = 0.2300, cur_precision = 0.9956 
+class_id = 2, point = 24, cur_recall = 0.2400, cur_precision = 0.9956 
+class_id = 2, point = 25, cur_recall = 0.2500, cur_precision = 0.9956 
+class_id = 2, point = 26, cur_recall = 0.2600, cur_precision = 0.9956 
+class_id = 2, point = 27, cur_recall = 0.2700, cur_precision = 0.9954 
+class_id = 2, point = 28, cur_recall = 0.2800, cur_precision = 0.9954 
+class_id = 2, point = 29, cur_recall = 0.2900, cur_precision = 0.9941 
+class_id = 2, point = 30, cur_recall = 0.3000, cur_precision = 0.9937 
+class_id = 2, point = 31, cur_recall = 0.3100, cur_precision = 0.9925 
+class_id = 2, point = 32, cur_recall = 0.3200, cur_precision = 0.9919 
+class_id = 2, point = 33, cur_recall = 0.3300, cur_precision = 0.9913 
+class_id = 2, point = 34, cur_recall = 0.3400, cur_precision = 0.9911 
+class_id = 2, point = 35, cur_recall = 0.3500, cur_precision = 0.9905 
+class_id = 2, point = 36, cur_recall = 0.3600, cur_precision = 0.9904 
+class_id = 2, point = 37, cur_recall = 0.3700, cur_precision = 0.9902 
+class_id = 2, point = 38, cur_recall = 0.3800, cur_precision = 0.9882 
+class_id = 2, point = 39, cur_recall = 0.3900, cur_precision = 0.9879 
+class_id = 2, point = 40, cur_recall = 0.4000, cur_precision = 0.9879 
+class_id = 2, point = 41, cur_recall = 0.4100, cur_precision = 0.9869 
+class_id = 2, point = 42, cur_recall = 0.4200, cur_precision = 0.9861 
+class_id = 2, point = 43, cur_recall = 0.4300, cur_precision = 0.9861 
+class_id = 2, point = 44, cur_recall = 0.4400, cur_precision = 0.9861 
+class_id = 2, point = 45, cur_recall = 0.4500, cur_precision = 0.9860 
+class_id = 2, point = 46, cur_recall = 0.4600, cur_precision = 0.9843 
+class_id = 2, point = 47, cur_recall = 0.4700, cur_precision = 0.9822 
+class_id = 2, point = 48, cur_recall = 0.4800, cur_precision = 0.9814 
+class_id = 2, point = 49, cur_recall = 0.4900, cur_precision = 0.9787 
+class_id = 2, point = 50, cur_recall = 0.5000, cur_precision = 0.9777 
+class_id = 2, point = 51, cur_recall = 0.5100, cur_precision = 0.9749 
+class_id = 2, point = 52, cur_recall = 0.5200, cur_precision = 0.9742 
+class_id = 2, point = 53, cur_recall = 0.5300, cur_precision = 0.9730 
+class_id = 2, point = 54, cur_recall = 0.5400, cur_precision = 0.9705 
+class_id = 2, point = 55, cur_recall = 0.5500, cur_precision = 0.9693 
+class_id = 2, point = 56, cur_recall = 0.5600, cur_precision = 0.9668 
+class_id = 2, point = 57, cur_recall = 0.5700, cur_precision = 0.9638 
+class_id = 2, point = 58, cur_recall = 0.5800, cur_precision = 0.9616 
+class_id = 2, point = 59, cur_recall = 0.5900, cur_precision = 0.9604 
+class_id = 2, point = 60, cur_recall = 0.6000, cur_precision = 0.9592 
+class_id = 2, point = 61, cur_recall = 0.6100, cur_precision = 0.9572 
+class_id = 2, point = 62, cur_recall = 0.6200, cur_precision = 0.9537 
+class_id = 2, point = 63, cur_recall = 0.6300, cur_precision = 0.9513 
+class_id = 2, point = 64, cur_recall = 0.6400, cur_precision = 0.9475 
+class_id = 2, point = 65, cur_recall = 0.6500, cur_precision = 0.9448 
+class_id = 2, point = 66, cur_recall = 0.6600, cur_precision = 0.9416 
+class_id = 2, point = 67, cur_recall = 0.6700, cur_precision = 0.9386 
+class_id = 2, point = 68, cur_recall = 0.6800, cur_precision = 0.9360 
+class_id = 2, point = 69, cur_recall = 0.6900, cur_precision = 0.9326 
+class_id = 2, point = 70, cur_recall = 0.7000, cur_precision = 0.9275 
+class_id = 2, point = 71, cur_recall = 0.7100, cur_precision = 0.9223 
+class_id = 2, point = 72, cur_recall = 0.7200, cur_precision = 0.9165 
+class_id = 2, point = 73, cur_recall = 0.7300, cur_precision = 0.9122 
+class_id = 2, point = 74, cur_recall = 0.7400, cur_precision = 0.9069 
+class_id = 2, point = 75, cur_recall = 0.7500, cur_precision = 0.9016 
+class_id = 2, point = 76, cur_recall = 0.7600, cur_precision = 0.8928 
+class_id = 2, point = 77, cur_recall = 0.7700, cur_precision = 0.8855 
+class_id = 2, point = 78, cur_recall = 0.7800, cur_precision = 0.8795 
+class_id = 2, point = 79, cur_recall = 0.7900, cur_precision = 0.8713 
+class_id = 2, point = 80, cur_recall = 0.8000, cur_precision = 0.8622 
+class_id = 2, point = 81, cur_recall = 0.8100, cur_precision = 0.8506 
+class_id = 2, point = 82, cur_recall = 0.8200, cur_precision = 0.8367 
+class_id = 2, point = 83, cur_recall = 0.8300, cur_precision = 0.8258 
+class_id = 2, point = 84, cur_recall = 0.8400, cur_precision = 0.8101 
+class_id = 2, point = 85, cur_recall = 0.8500, cur_precision = 0.7951 
+class_id = 2, point = 86, cur_recall = 0.8600, cur_precision = 0.7759 
+class_id = 2, point = 87, cur_recall = 0.8700, cur_precision = 0.7449 
+class_id = 2, point = 88, cur_recall = 0.8800, cur_precision = 0.7068 
+class_id = 2, point = 89, cur_recall = 0.8900, cur_precision = 0.6495 
+class_id = 2, point = 90, cur_recall = 0.9000, cur_precision = 0.5744 
+class_id = 2, point = 91, cur_recall = 0.9100, cur_precision = 0.3984 
+class_id = 2, point = 92, cur_recall = 0.9200, cur_precision = 0.0000 
+class_id = 2, point = 93, cur_recall = 0.9300, cur_precision = 0.0000 
+class_id = 2, point = 94, cur_recall = 0.9400, cur_precision = 0.0000 
+class_id = 2, point = 95, cur_recall = 0.9500, cur_precision = 0.0000 
+class_id = 2, point = 96, cur_recall = 0.9600, cur_precision = 0.0000 
+class_id = 2, point = 97, cur_recall = 0.9700, cur_precision = 0.0000 
+class_id = 2, point = 98, cur_recall = 0.9800, cur_precision = 0.0000 
+class_id = 2, point = 99, cur_recall = 0.9900, cur_precision = 0.0000 
+class_id = 2, point = 100, cur_recall = 1.0000, cur_precision = 0.0000 
+class_id = 2, name = yellow cone, ap = 85.84%   	 (TP = 5830, FP = 1615) 
+Precision = 0.78, Recall = 0.86, avg IOU = 0.62% 
+
+
+ for conf_thresh = 0.25, precision = 0.78, recall = 0.85, F1-score = 0.81 
+ for conf_thresh = 0.25, TP = 10918, FP = 3123, FN = 1960, average IoU = 61.31 % 
+
+ IoU threshold = 50 %, used 101 Recall-points 
+ mean average precision (mAP@0.50) = 0.843388, or 84.34 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
